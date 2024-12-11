@@ -8,6 +8,6 @@ the dataparser.ipynb file takes that raw html data, and parses it into the corpu
 ## the seacher
 the bm25Searcher.ipynb file uses the csv file the parser generated to create a document corpus, which the bm25 algorythm can then use to search for monsters.
 ## Extra, the Gui
-for testing I have created a simple webapp hosted through anvil. using this [link](https://colorful-thorough-auk.anvil.app/) the server in the bm25searcher code needs to be running for the web app to work
+for testing I have created a simple webapp hosted through anvil. using this [link](https://colorful-thorough-auk.anvil.app/) the server in the bm25searcher code needs to be running for the web app to work.  
 run the `anvil.server.wait_forever()` line and it should work
 
